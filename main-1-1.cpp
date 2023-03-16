@@ -1,7 +1,7 @@
 #include <stdio.h>
+extern void print_matrix(int array[10][10]);
 int main()
 {
-    extern void print_matrix(int array[10][10]);
     int array[10][10] = {{1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                          {0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
                          {0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
